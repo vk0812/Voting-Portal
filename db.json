@@ -1,0 +1,77 @@
+{
+  "user": [
+    {
+      "id": "rahul",
+      "name": "rahul kumar",
+      "password": "RaHuL!1234",
+      "email": "krohit63790@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "ananya",
+      "name": "ananya kri",
+      "password": "AnAnYa$7739",
+      "email": "gulshankrsah2002@gmail.com",
+      "gender": "female",
+      "role": "voter",
+      "isactive": true
+    },
+    {
+      "id": "ananya",
+      "name": "ananya kri",
+      "password": "AnAnYa$7739",
+      "email": "gulshankrsah2002@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "ananya",
+      "name": "ananya kri",
+      "password": "AnAnYa$7739",
+      "email": "gulshankrsah2002@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "ananya",
+      "name": "ananya kri",
+      "password": "AnAnYa$7739",
+      "email": "gulshankrsah2002@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "ananya",
+      "name": "ananya kri",
+      "password": "AnAnYa$7739",
+      "email": "gulshankrsah2002@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "adhgadkjb",
+      "name": "ayush",
+      "password": "AyUsH!1234",
+      "email": "gulshankumar06012@gmail.com",
+      "gender": "female",
+      "role": "voter",
+      "isactive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "voter",
+      "name": "voter"
+    },
+    {
+      "code": "candidate",
+      "name": "candidate"
+    }
+  ]
+}
