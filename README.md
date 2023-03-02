@@ -1,19 +1,11 @@
-# Voting-Portal
-A Voting Portal to automate the manual voting process
+# imported HttpClientModule in app.module.ts
 
-## Work 
-### Frontend
-Login Page - A already registered person can login and vote
+# imported HttpClient in candidates.component.ts
 
-Register Page - A person who is visiting for the first time can register and vote
+# declared a class CandidatesComponent to call the api(including its export)
 
-Voting Page - Actual voting page where people can vote
+# imported this class in app.component.ts
 
-Results Page - Shows which candidate has how many votes
+# converted the data in this api accordingly to be extracted in the html file
 
-### Backend
-Candidate Model - Stores all information for a particular candidate (name, address, votes received,... any more variables you can think off)
-
-User Model - Model which will store all username and passwords (maybe with some kind of authentication)
-
-
+# code in html file to display this data
