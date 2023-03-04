@@ -1,0 +1,140 @@
+<!--bootstrap code for adding carousel that displays candidate profile and their details-->
+
+<section id="candy">
+  <div class="container">
+    <h1 class="section-header">
+        <br>
+      Know Your Candidate
+      <br>
+      <span>"Democracy is not a spectator sport" - <br><strong></strong><strong>Marian Wright Edelman</strong></span>
+    </h1>
+    <div class="testimonials">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="single-item">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="profile">
+                    <div class="img-area">
+                      <img src="{{candp1}}" alt="" />
+                    </div>
+                    <div class="bio">
+                      <h2>{{cand1}}</h2>
+                      <h4>{{curPos1}}</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="content">
+                    <div>
+                      <h2>Manifesto</h2>
+                      {{man1}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="single-item">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="profile">
+                    <div class="img-area">
+                      <img src="{{candp2}}" alt="" />
+                    </div>
+                    <div class="bio">
+                      <h2>{{cand2}}</h2>
+                      <h4>{{curPos2}}</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="content">
+                    <div>
+                      <h2>Manifesto</h2>
+                      {{man2}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="single-item">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="profile">
+                    <div class="img-area">
+                      <img src="{{candp3}}" alt="" />
+                    </div>
+                    <div class="bio">
+                      <h2>{{cand3}}</h2>
+                      <h4>{{curPos3}}</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="content">
+                    <div>
+                      <h2>Manifesto</h2>
+                      {{man3}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="single-item">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="profile">
+                    <div class="img-area">
+                      <img src="{{candp4}}" alt="" />
+                    </div>
+                    <div class="bio">
+                      <h2>{{cand4}}</h2>
+                      <h4>{{curPos4}}</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="content">
+                    <div>
+                      <h2>Manifesto</h2>
+                      {{man4}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>

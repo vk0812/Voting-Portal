@@ -1,0 +1,27 @@
+
+<nav class=" navbar fixed-top navbar-expand-lg navbar-dark {{additional}}" (scroll)="opaque()" id="d">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src={{logoloc}} id="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll" >
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll mx-auto" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active " aria-current="page" href="#home1" style="opacity: {{opa}}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#candy" style="opacity: {{opa}}">Candidates</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link active" href="#vp" style="opacity: {{opa}}">Portal</a>
+          </li> 
+        </ul>
+        <div class="btn" role="button" id="userdata" (mouseenter)="signoutify()" (mouseleave)="usernamify()" (click)="signOut()">
+          <img src="{{dpurl}}" class="circular--square" id="dp">  
+          {{username}}
+        </div>
+      </div>
+    </div>
+  </nav>
+
